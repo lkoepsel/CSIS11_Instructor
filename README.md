@@ -42,6 +42,13 @@ In this step you will be making changes to CSIS11_Student**s** (*plural*), to co
 
 1. Delete the instructor folder
 2. Change the name of CSIS11_Students (*plural*) to CSIS11_Student (*singular*)
+3. In VS Code Terminal:
+```bash
+rm -rf .git
+git init
+git add -A
+git commit -m "initial commit"
+```
 
 ### 4. Create a new CSIS11_Student repository on Github
 1. On Github, click on Repositories.
@@ -56,24 +63,19 @@ In this step you will be making changes to CSIS11_Student**s** (*plural*), to co
 
 ### 4. Connect your **local** repository to your **Github** repository.
 
-Perform the four commands below, **one by one**, ensuring there is **NOT** an error, before going to the next step:
-   1. Remove the original connection, if the result is "*error: No such remote: origin*", this is fine:
-```bash
-git remote remove origin
-```
-
-   2. Add the origin which will point to *your* GitHub account, so you will **need to change username**:
+Perform the three commands below, **one by one**, ensuring there is **NOT** an error, before going to the next step:
+   1. Add the origin which will point to *your* GitHub account, so you will **need to change username**:
 
 ```bash
 git remote add origin git@github.com:username/CSIS11_Student.git
 ```
 
-   3. Add the branch, *main*:
+   2. Add the branch, *main*:
 ```bash
 git branch -M main
 ```
 
-   4. Push the local branch *main* to your Github repository:
+   3. Push the local branch *main* to your Github repository:
 ```bash
 git push -u origin main
 ```
