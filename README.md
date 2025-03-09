@@ -51,3 +51,51 @@ This *README* file will provide instruction as to how to retrieve the weekly upd
    git commit -m "adding my changes for week 5" # Commit your changes, change the message as appropriate
    git push origin # push your change to your repository on GitHub
    ```
+
+## Style Guidelines
+
+1. Provide program header comments, **see [Example: shift_left_match](assembly/week_6/code/shift_left_match.asm)** in week_6
+2. **Must include** a .ORIG directive at start of program and .END at end of program
+    The *.ORIG x[address]* tells assembler to load the program starting at that address; as in *.ORIG x3000* load the program at *x3000*
+2. **Lineup** labels, opcode, operands, and comments in same column for each line. **see Example 1: add2**
+3. Use comments to explain what each register does.
+4. Give explanatory comment for most instructions.
+5. Use meaningful symbolic names.
+6. Provide comments between program sections.
+
+### Your grade will depend on style as well as code effectiveness
+
+## LC-3 Memory Map
+
+### **System Areas** (0x0000 - 0x2FFF):
+
+### **User Space** (0x3000 - 0xBFFF):
+* **User code and stack**: x3000 - xBFFF
+* Use ```.ORIG x3000``` to place your code in this space
+* If you find your PC (program counter) isn't in this range, you've got a bug in your program
+
+### **Device and I/O Areas** (0xC000 - 0xFFFF):
+
+## How to Reference Images in a Markdown file
+
+1. Use the Markdown code 
+```md
+![](name of file goes here)
+```
+
+2. Use relative addressing to locate file:
+
+| location | prefix to filename |
+| -------- | ------------------ |
+| immediate folder | ./ |
+| next folder up | ../ |
+| two folders up | ../../ |
+
+---
+
+![](./static/relative.png)
+
+
+ ![](./static/ASCII-Table.svg)
+
+
