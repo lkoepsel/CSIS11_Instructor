@@ -9,6 +9,7 @@ For *CSIS11*, there are **two** repositories:
 ### Important
 1. **Please make sure your version of *CSIS11_Student* on GitHub is private and is accessible by only the instructor and you.**
 2. **Please do NOT make changes or add files to the *CSIS11_Instructor* repository, as this is where you will receive new versions of files from the instructor**
+3. **Copy** the required files from the *Instructor* repository, each week to work on the assignments.
 
 ## Installation (UPDATED as of March 8, 2025)
 
