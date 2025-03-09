@@ -1,8 +1,8 @@
 # Week 6 - Beginning LC-3 Assembly
 ## Instructions
 
-1. **Copy and paste both this README and the code folder into week_6 in your CSIS11_Student folder.**
-2. Follow the assignment by writing code or pasting images from the simulator into **your README file**.
+1. **Copy and paste both this README and the *code* folder into week_6 in your *CSIS11_Student/assembly* folder.**
+2. Follow the assignment by writing code or pasting images from the simulator into your *README* file.
 3. If the assignment asks for a program file, place the file in the *code* folder with the assigned name
 
 ## 6a - Learn how to use the tools
