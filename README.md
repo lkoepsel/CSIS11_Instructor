@@ -15,7 +15,7 @@ For *CSIS11*, there are **two** repositories:
 
 If you need help moving from CSIS11_Students (*the original setup*) to CSIS11_Student (*the setup going forward*) go to [setup.md](./setup.md)
 
-### Overview
+## Overview
 You have two folders for your work in *CSIS1 Computer Architecures*:
 
 * *CSIS11_Student* - your personal assignments folder where you perform the class work
@@ -34,13 +34,13 @@ This *README* file will provide instruction as to how to retrieve the weekly upd
 ### To push your latest assignment to your CSIS11_Student folder
 
 #### Use VS Code:
-![](github_commit.png)
+![](./static/github_commit.png)
 1. Click on the Source Control icon **(A)**:
 2. Note the files under Changes **(B)**, make sure they include the files you have worked on **(C)**:
 3. Enter text in the *Message* **(D)** block (you must do this or VS Code will open a file for you to enter your comments and *wait...*)
 4. Click *Commit* **(E)**, this will commit your files *locally*
 5. Click *Sync Changes*, to push your files to your remote, **so that the instructor may see them**
-![](github_sync.png)
+![](./static/github_sync.png)
 
 **OR**
 
@@ -54,16 +54,18 @@ This *README* file will provide instruction as to how to retrieve the weekly upd
 
 ## Style Guidelines
 
-1. Provide program header comments, **see [Example: shift_left_match](assembly/week_6/code/shift_left_match.asm)** in week_6
+   **See [Example: shift_left_match](assembly/week_6/code/shift_left_match.asm)** in week_6
+
+1. Provide program header comments, 
 2. **Must include** a .ORIG directive at start of program and .END at end of program
     The *.ORIG x[address]* tells assembler to load the program starting at that address; as in *.ORIG x3000* load the program at *x3000*
-2. **Lineup** labels, opcode, operands, and comments in same column for each line. **see Example 1: add2**
+2. **Lineup** labels, opcode, operands, and comments in same column for each line.
 3. Use comments to explain what each register does.
 4. Give explanatory comment for most instructions.
 5. Use meaningful symbolic names.
 6. Provide comments between program sections.
 
-### Your grade will depend on style as well as code effectiveness
+**Your grade will depend on style as well as code effectiveness**
 
 ## LC-3 Memory Map
 
@@ -74,7 +76,11 @@ This *README* file will provide instruction as to how to retrieve the weekly upd
 * Use ```.ORIG x3000``` to place your code in this space
 * If you find your PC (program counter) isn't in this range, you've got a bug in your program
 
-### **Device and I/O Areas** (0xC000 - 0xFFFF):
+### **Device and I/O Areas** (0xC000 - 0xFFFF)
+
+## LC-3 Keyboard Commands
+* *Ctrl-s/Cmd-s* to Save
+* *Ctrl-Return/Cmd-Return* to Build (Assemble file)
 
 ## How to Reference Images in a Markdown file
 

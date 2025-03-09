@@ -19,7 +19,7 @@
 1. Open the file in the *code* folder
 1. Make changes such that VALUE is xB0B0 and MATCH is x1600
 2. Run in the simulator and provide a screenshot showing the result when the program has **successfully** finished. 
-![](../../changethistoimagename.png)
+![](../../static/changethistoimagename.png)
 
 #### 2. shift_left_n.asm
 
@@ -36,7 +36,7 @@
 1. Open the file in the *code* folder
 2. Change the file such that the **final sum is x0085 (the original sum is 55)**
 2. Run in the simulator and provide a screenshot showing the result when the program has finished. 
-![](../../changethistoimagename.png)
+![](../../static/changethistoimagename.png)
 
 #### 4. addnums.asm -> subnums.asm
 1. Open the file in the *code* folder
