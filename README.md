@@ -39,7 +39,8 @@ This *README* file will provide instruction as to how to retrieve the weekly upd
 2. Note the files under Changes **(B)**, make sure they include the files you have worked on **(C)**:
 3. Enter text in the *Message* **(D)** block (you must do this or VS Code will open a file for you to enter your comments and *wait...*)
 4. Click *Commit* **(E)**, this will commit your files *locally*
-5. Click *Sync*, to push your files to your remote, so that I can see them
+5. Click *Sync Changes*, to push your files to your remote, **so that the instructor may see them**
+![](github_sync.png)
 
 **OR**
 
