@@ -1,6 +1,5 @@
 # Setup for Moving from CSIS11_Students to CSIS11_Student
 
-
 ## Overview
 As of the start of this instruction, there are three repositories in the discussion:
 1. CSIS11_Students (**Note: plural**) - this is the **existing** repository and will be ultimately deleted,
@@ -117,6 +116,31 @@ nothing to commit, working tree clean
 2. **Confirm your** *CSIS11/assembly/week_6* folder has **all** of your work.
 3. **Check again on step 2**, and once you are sure, go to the next step.
 
-### 2. Delete your local version of CSIS11_Students
+### 5. Delete your local version of CSIS11_Students
    1. Using *Finder/Explorer*, delete your CSIS11_Students folder.
 
+
+### 6. Clone the Instructor repository for assignments
+1. Go to github.com/lkoepsel/CSIS11_Instructor
+2. Click on the Green Code button and copy the address
+3. In *VS Code Terminal*, navigate to where you would like to place the Instructor repository using *cd*. For example:
+```bash
+# go to your home folder
+cd
+# go to Documents
+cd Documents
+# confirm you are where you want to be
+pwd
+~/lkoepsel/Documents
+# clone folder
+git clone git@github.com:lkoepsel/CSIS11_Instructor.git
+```
+
+## Summary
+
+You now have two folders for your work in *CSIS1 Computer Architecures*:
+
+* *CSIS11_Student* - your personal assignments folder where you perform the class work
+* *CSIS11_Instructor* - the instructor's folder where they provide examples and assignments for the class work
+
+The *README* file in *CSIS11_Instructor* will provide instruction as to how to retrieve the weekly updates.

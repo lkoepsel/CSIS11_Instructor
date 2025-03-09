@@ -13,76 +13,17 @@ For *CSIS11*, there are **two** repositories:
 
 ## Installation (UPDATED as of March 8, 2025)
 
+If you need help moving from CSIS11_Students (*the original setup*) to CSIS11_Student (*the setup going forward*) go to [setup.md](./setup.md)
+
 ### Overview
-As of the start of this instruction, there are three repositories in the discussion:
-1. CSIS11_Students (**Note: plural**) - this is the existing repository and will be split,
-2. Into two repositories:
-   1. CSIS11_Instructor - this one
-   2. CSIS11_Student (**Note: singular**) - which you will create both locally and on Github to work on your assignments
+You have two folders for your work in *CSIS1 Computer Architecures*:
 
-### 1. Backup your current copy of CSIS11_Students on your system.
-   1. **Backup: Ensure your current homework is saved and use Finder(*macOS*) / Explorer(*Windows*) to copy your CSIS11_Students to your *Desktop*. This is very important!** 
-   
-### 2. Delete your current version of CSIS11_Students on your Github account online.
-   1. Login to *GitHub*
-   2. Click on Repositories at the top then click on CSIS11_Students. (*See image below.*) Note the CSIS11_Students on the left and the "..." on the right.
-   3. Click on the "..." on the right and a popup will say *Settings*, click on *Settings*.
- ![](./github_CSIS11.png)
-   3. This will show a **long** list of items. Go to the very bottom, where it says **Danger Zone**. At the bottom of **Danger Zone** is *Delete this repository* in red.
- ![](./github_dangerzone.png)
+* *CSIS11_Student* - your personal assignments folder where you perform the class work
+* *CSIS11_Instructor* - the instructor's folder where they provide examples and assignments for the class work
 
-   4. Follow the instructions after click on *Delete this repository*:
-      1. Click on *I want to delete this repository*
-      2. Click on *I have read and understand these effects.*
-      3. Enter your *username/CSIS11_Students*
-      4. Click on *Delete this repository*.  (*You might need to enter your credentials and the repository will be deleted.*)
+This *README* file will provide instruction as to how to retrieve the weekly updates.
 
-### 3. Create a new CSIS11_Student repository on your system
-
-In this step you will be making changes to CSIS11_Student**s** (*plural*), to convert it to CSIS11_Student (*singular*).
-
-1. Delete the instructor folder
-2. Change the name of CSIS11_Students (*plural*) to CSIS11_Student (*singular*)
-3. In VS Code Terminal:
-```bash
-rm -rf .git
-git init
-git add -A
-git commit -m "initial commit"
-```
-
-### 4. Create a new CSIS11_Student repository on Github
-1. On Github, click on Repositories.
-2. Click on the new button on the far right. (*See image below.*)
- ![](./github_new.png)
-3. In the box beside your user name enter: *CSIS11_Student*  (**Exactly!**)
- ![](./github_name.png)
-4. Click on the green Create Repository at the bottom of the page.
- ![](./github_create.png)
-
-**Do NOT close the next page shown on Github, it has your next steps!**
-
-### 4. Connect your **local** repository to your **Github** repository.
-
-Perform the three commands below, **one by one**, ensuring there is **NOT** an error, before going to the next step:
-   1. Add the origin which will point to *your* GitHub account, so you will **need to change username**:
-
-```bash
-git remote add origin git@github.com:username/CSIS11_Student.git
-```
-
-   2. Add the branch, *main*:
-```bash
-git branch -M main
-```
-
-   3. Push the local branch *main* to your Github repository:
-```bash
-git push -u origin main
-```
-
-
-## Ongoing Operations:
+## Weekly Updates:
 
 ### To get the latest assignment, in the CSIS11_Instructor folder
    1. To **sync** with *lkoepsel* (or class) updates:
@@ -90,11 +31,22 @@ git push -u origin main
    git fetch origin
    git merge origin/main
    ```
+### To push your latest assignment to your CSIS11_Student folder
 
-   2. To **update** your work on GitHub:
-   - Be sure to use the week-specific folders in the ```student``` folder then commit and push to your repository using VS Code or CLI:
+#### Use VS Code:
+![](github_commit.png)
+1. Click on the Source Control icon **(A)**:
+2. Note the files under Changes **(B)**, make sure they include the files you have worked on **(C)**:
+3. Enter text in the *Message* **(D)** block (you must do this or VS Code will open a file for you to enter your comments and *wait...*)
+4. Click *Commit* **(E)**, this will commit your files *locally*
+5. Click *Sync*, to push your files to your remote, so that I can see them
+
+**OR**
+
+#### Your terminal program (*CLI*):
    ```bash
+   # make sure you are in your CSIS11_Student folder
    git add -A # to add all of the changes
-   git commit -m "adding my changes for week 5" # Commit your changes
+   git commit -m "adding my changes for week 5" # Commit your changes, change the message as appropriate
    git push origin # push your change to your repository on GitHub
    ```
