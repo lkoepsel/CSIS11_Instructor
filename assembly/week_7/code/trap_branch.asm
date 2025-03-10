@@ -40,7 +40,7 @@
         LD R1, COUNT    ; get count
 INPUT   IN              ; read a character
         LD R3, ASCII_0
-        ADD R2, R0, R3 ; check if <= ASCII_0
+        ADD R2, R0, R3 ; check if < ASCII_0
         BRn INPUT       ; if so, get another character
         LD R3, ASCII_9
         ADD R2, R0, R3 ; check if > ASCII_9
