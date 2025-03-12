@@ -54,7 +54,7 @@ git add -A
 git commit -m "initial commit"
 git status
 ```
-The last command will show:
+The last command will indicate success by showing you are on *branch main*: (**DO NOT COPY AND RUN THE TEXT BELOW!**)
 ```bash
 git status
 On branch main
@@ -65,20 +65,24 @@ In this step, you will create a *remote* repository on Github which will be used
 
 1. On Github, click on Repositories.
 2. Click on the new button on the far right. (*See image below.*)
- ![](./github_new.png)
+ ![](./static/github_new.png)
 3. In the box beside your user name (*mine is shown in image*) enter: *CSIS11_Student*  (**Exactly!**)
- ![](./github_name.png)
+ ![](./static/github_name.png)
 4. Click on Private, to ensure the repository is viewable only by you and the instructor.
 4. Click on the green Create Repository at the bottom of the page. (*The entire page needs to look like the image, with the exception of the username.*)
- ![](./github_create.png)
+ ![](./static/github_create.png)
 
 ### 3. Connect your local repository to your remote repository.
 
 Perform the three commands below, **one by one**, in the *VS Code Terminal*, ensuring there is **NOT** an error, before going to the next step:
-   1. Add the origin which will point to *your* GitHub account, so you will **need to change username to your Github username**:
+   1. Add the origin which will point to *your* GitHub account, so you will **need to change username to your Github username and USE ONLY ONE OF THE TWO LINES BELOW!**:
 
 ```bash
+# Use this line, if you authenticate via SSH (publickey)
 git remote add origin git@github.com:username/CSIS11_Student.git
+
+# Use this line, if you authenticate via browser-based password
+git remote add origin https://github.com:username/CSIS11_Student.git
 ```
 
    2. Add the branch, *main*:

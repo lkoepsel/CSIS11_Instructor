@@ -34,7 +34,7 @@
 
 #### 3. addnums.asm
 1. Open the file in the *code* folder
-2. Change the file such that the **final sum is x0085 (the original sum is 55)**
+2. Change the file such that the **final sum is x0085 (*hexadecimal*) (the original sum is *decimal* 55)**
 2. Run in the simulator and provide a screenshot showing the result when the program has finished. 
 ![](../../static/changethistoimagename.png)
 
