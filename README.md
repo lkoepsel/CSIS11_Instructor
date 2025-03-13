@@ -10,6 +10,28 @@ For *CSIS11*, there are **two** repositories:
 1. **Please make sure your version of *CSIS11_Student* on GitHub is private and is accessible by only the instructor and you.**
 2. **Please do NOT make changes or add files to the *CSIS11_Instructor* repository, as this is where you will receive new versions of files from the instructor**
 3. **Copy** the required files from the *Instructor* repository, each week to work on the assignments.
+4. **Your folder structure must be the following:**
+   * Your top folder (*Documents, below*), might be *Desktop*, *OneDrive* or something else.
+      ```
+      Documents/
+      ├── CSIS11_Instructor/
+      │   ├── assembly/
+      │       ├── week_5/
+      │       ├── week_6/
+      │       └── ...
+      │   ├── C/
+      │   └── README.md
+      │   └── .gitignore
+      ├── CSIS11_Student/
+      │   ├── assembly/
+      │       ├── week_5/
+      │       ├── week_6/
+      │       └── ...
+      │   └── C/
+      │   └── README.md
+      │   └── .gitignore
+      ```
+
 
 ## Installation (UPDATED as of March 8, 2025)
 

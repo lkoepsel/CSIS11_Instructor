@@ -7,6 +7,29 @@ As of the start of this instruction, there are three repositories in the discuss
    1. CSIS11_Instructor - this one
    2. CSIS11_Student (**Note: singular**) - which you will create both *locally* and *on Github* (called *remote*) to work on your assignments
 
+## Important
+Your **ultimate** folder structure must be the following:
+1. Repository Structure:
+   - Your top folder (*Documents, below*), might be *Desktop*, *OneDrive* or something else.
+```
+Documents/
+├── CSIS11_Instructor/
+│   ├── assembly/
+│       ├── week_5/
+│       ├── week_6/
+│   ├── C/
+│   └── README.md
+│   └── .gitignore
+├── CSIS11_Student/
+│   ├── assembly/
+│       ├── week_5/
+│       ├── week_6/
+│   └── C/
+│   └── README.md
+│   └── .gitignore
+```
+
+
 ## Installation Instructions
 ### 1. Create a new CSIS11_Student repository on your system
 

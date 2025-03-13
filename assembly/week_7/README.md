@@ -29,6 +29,10 @@ Use *trap_branch.asm* for all of the assignments below. In some of the assignmen
 
 **Once you have finished all four assignments, be sure to commit and sync your commits to your Github account.**
 
+5. Use *stack.asm* for the following screenshots:
+
+a. Uncomment the 
+![](../../static/changethistoimagename.png)
 
 -----
 ![](../../static/ASCII-Table.svg)
