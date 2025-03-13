@@ -31,8 +31,15 @@ Use *trap_branch.asm* for all of the assignments below. In some of the assignmen
 
 5. Use *stack.asm* for the following screenshots:
 
-a. Uncomment the 
+a. Uncomment the commented out error code for PUSH, lines 37-42. Run the code in the simulator and make note of the change in message as  the program ends. Take a screen shot of the LC-3 Tool to demonstrate you've run this. Be sure to return the code to original state before going forward.
 ![](../../static/changethistoimagename.png)
+
+b. Uncomment the commented out error code for POP, lines 51-52. Run the code in the simulator and make note of the change in message as  the program ends. Take a screen shot of the LC-3 Tool to demonstrate you've run this. Be sure to return the code to original state before going forward.
+![](../../static/changethistoimagename.png)
+
+c. Add code to the stack subroutines which would allow the user to understand if they have committed a PUSH or POP error per 5a and 5b above. Consider changing the value in  R5... Update the code to perform this capability and label that program *stack_v2.asm*.
+
+**Once you have finished these three sub-assignments, be sure to commit and sync your commits to your Github account.**
 
 -----
 ![](../../static/ASCII-Table.svg)
