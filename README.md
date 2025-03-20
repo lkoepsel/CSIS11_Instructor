@@ -50,8 +50,18 @@ This *README* file will provide instruction as to how to retrieve the weekly upd
 ### To get the latest assignment, in the CSIS11_Instructor folder
    1. To **sync** with *lkoepsel* (or class) updates:
    ```bash
-   git fetch origin
-   git merge origin/main
+   # to download the latest
+   git fetch
+
+   # to update the contents of your local version of Instructor
+   git merge
+
+   # to view the log to ensure it matches what is on this repository
+   # you will need to press q at the :, to get out of the log page
+   git log
+   q
+
+   # Copy the appropriate weekly folder to your Student repository
    ```
 ### To push your latest assignment to your CSIS11_Student folder
 
