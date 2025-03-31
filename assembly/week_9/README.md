@@ -39,9 +39,9 @@ It sees a "*", so it calls the MULT subroutine which pops two numbers from the s
 
 ![](../../static/smc_plus.png)
 
-### Multiplication Example
+### Divide Example
 
-![](../../static/smc_mult.png)
+![](../../static/smc_div.png)
 
 ### Error on Input Example
 
