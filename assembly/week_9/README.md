@@ -32,3 +32,17 @@ It sees a "*", so it calls the MULT subroutine which pops two numbers from the s
 1. Be sure to copy this folder *week_9* to your *assembly/* folder in your repository.
 2. Add your code to *code/smc.asm*, be sure it works!
 3. Commit and Sync your repository, so I am able to view and grade it.
+
+## Example Screenshots
+
+### Plus Example
+
+![](../../static/smc_plus.png)
+
+### Multiplication Example
+
+![](../../static/smc_mult.png)
+
+### Error on Input Example
+
+![](../../static/smc_bad.png)
