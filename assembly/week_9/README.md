@@ -35,14 +35,22 @@ It sees a "*", so it calls the MULT subroutine which pops two numbers from the s
 
 ## Example Screenshots
 
-### Plus Example
+### Good Plus Example
 
 ![](../../static/smc_plus.png)
 
-### Divide Example
+### Good Divide Example
 
 ![](../../static/smc_div.png)
 
-### Error on Input Example
+### Good Error on Input Example
 
 ![](../../static/smc_bad.png)
+
+### Great Plus Example
+
+![](../../static/smc_great_plus.png)
+
+### Great Divide Example
+
+![](../../static/smc_great_div.png)

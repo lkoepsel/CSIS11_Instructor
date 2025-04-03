@@ -1,5 +1,5 @@
 ; array
-; Demonstrates the using pointers to create an array
+; Demonstrates using pointers to create an array
 ; Use one pointer to store the address of a set of constants
 ; and another pointer to store it in an array.
 ; The program uses the following variables:

@@ -1,5 +1,10 @@
 ; in
-; Demonstrates how to input characters
+; Demonstrates how to input character using GETC
+
+; Registers:
+;     R0 - register used for I/O
+;     R1 - counter for number of digits entered
+;     R3 - temp register for calculations and comparisons
 
             .ORIG x3000
             BR START
@@ -22,10 +27,10 @@ START       LEA R0, DESC
 
 INPUT       GETC              ; read a character
             LD R3, ASCII_9
-            ADD R2, R0, R3  ; check if > ASCII_9
+            ADD R3, R0, R3  ; check if > ASCII_9
             BRp INPUT       ; if so, error and get another character
             LD R3, ASCII_0
-            ADD R2, R0, R3  ; check if < ASCII_0            
+            ADD R3, R0, R3  ; check if < ASCII_0            
             BRn INPUT       ; if so, error and get another character
             OUT
             
