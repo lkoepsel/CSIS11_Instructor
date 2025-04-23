@@ -3,7 +3,7 @@
 Please write a C Language solution to the following problems. Please follow this process:
 1. Create a file named prob_n.c for each problem, with n being the problem number.
 2. Place the files in the code folder
-3. Under each Problem, where it states **Solution Image**, place an image using [OnlineGDB](https://www.onlinegdb.com) showing both the code and the output using [OnlineGDB](https://www.onlinegdb.com)
+3. Under each Problem, where it states **Solution Image**, replace the dummy image below with one showing both the code and the output from [OnlineGDB](https://www.onlinegdb.com)
 
 ## Problem 1: Temperature Converter
 
