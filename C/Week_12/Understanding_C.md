@@ -17,19 +17,7 @@ Please write a C Language solution to the following problems. Please follow this
 
 **Problem:** Create a program that performs basic arithmetic operations. The program should ask the user to enter two numbers and an operator (+, -, *, /), then display the result of the operation.
 
-In order to determine the operator for the operation, use an if (), else if (), else construct. It follows this pattern:
-```c
-if (comparison) 
-{
-    code;
-} else if (comparison) 
-{
-    code;
-} else  
-{
-    code;
-}
-```
+Be sure to review Control Structures in Lec_12b
 
 **Solution Image**
 ![](../../static/changethistoimagename.png)
