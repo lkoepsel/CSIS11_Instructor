@@ -17,7 +17,7 @@ The stack will be set up as follows:
 
 Solve the volume calculation in two ways:
 * *C Language* - use a function to calculate the volume and print the result from the main routine
-* *LC-3* - convert the program to LC-3 Assembly, using the stack to pass both the arguments and the result. Remember the best practices of using the stack require checking for overflow and underflow after every stack operation (Pop/Push)
+* *LC-3* - convert the program to LC-3 Assembly, using the stack to pass both the arguments and the result. Remember the best practices of using the stack require checking for overflow and underflow after every stack operation (Pop/Push) The LC-3 version **does NOT need to print the result to the console**. Save the result from the function to a memory location called RESULT.
 
 Use the example from the class lecture as a guide to how to setup and document the LC-3 Assembly code.
 
