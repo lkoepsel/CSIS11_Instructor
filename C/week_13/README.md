@@ -9,9 +9,9 @@ For example, if a function has three arguments in order to calculate volume, and
 The stack will be set up as follows:
 | variable | offset |
 | -------- | ------ |
-| length | 0 |
+| length | 2 |
 | width | 1 |
-| height | 2 |
+| height | 0 |
 
 ## Problem
 
